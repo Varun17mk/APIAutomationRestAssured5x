@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e70cc69f-8b81-43a5-921f-e2045ec49335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/DELETE/NONBDD_DELETE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/PATCH/NONBDD_PATCH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/POST/BDDStylePOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/POST/NONBDDStylePOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/PUT/NONBDD_PUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RATestcase1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +31,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2eu2lKO2YCyp4ogWzBNkpPpDsBF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,13 +45,129 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HW.executor": "Debug",
     "Application.HelloWorld.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.APIAutomationRestAssured5x [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.<default> (1).executor": "Run",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.BDDStylePOST.executor": "Run",
+    "TestNG.NONBDDStylePOST.executor": "Run",
+    "TestNG.NONBDD_DELETE.executor": "Run",
+    "TestNG.NONBDD_PATCH.executor": "Run",
+    "TestNG.NONBDD_PUT.executor": "Run",
+    "TestNG.NONBDD_PUT.testPutRequest.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.NONBDD_DELETE">
+    <configuration name="NONBDDStylePOST" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.CRUD.POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.CRUD.POST" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.POST.NONBDDStylePOST" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NONBDD_DELETE" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.CRUD.DELETE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.CRUD.DELETE" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.DELETE.NONBDD_DELETE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NONBDD_PATCH" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.CRUD.PATCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.CRUD.PATCH" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.PATCH.NONBDD_PATCH" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NONBDD_PUT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.CRUD.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.CRUD.PUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.PUT.NONBDD_PUT" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NONBDD_PUT.testPutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.CRUD.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.CRUD.PUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.PUT.NONBDD_PUT" />
+      <option name="METHOD_NAME" value="testPutRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.NONBDD_DELETE" />
+        <item itemvalue="TestNG.NONBDD_PATCH" />
+        <item itemvalue="TestNG.NONBDD_PUT" />
+        <item itemvalue="TestNG.NONBDD_PUT.testPutRequest" />
+        <item itemvalue="TestNG.NONBDDStylePOST" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
