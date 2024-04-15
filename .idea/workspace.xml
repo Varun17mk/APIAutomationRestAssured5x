@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e70cc69f-8b81-43a5-921f-e2045ec49335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/DELETE/NONBDD_DELETE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/GET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/PATCH/NONBDD_PATCH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/POST/BDDStylePOST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/POST/NONBDDStylePOST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CRUD/PUT/NONBDD_PUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RATestcase1.java" afterDir="false" />
+    <list default="true" id="e70cc69f-8b81-43a5-921f-e2045ec49335" name="Changes" comment="11th April 2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DDT/DDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DDT/DDT01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DDT/DDT_ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DDT/UTIL_EXCEL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/Listners/CustomListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/Listners/Tc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/Listners/testng_Listners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/Parallel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/Parallel/testng_Parallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/TEST001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testNG/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CRUD/GET.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DDT_ReadExcel.executor": "Run",
     "Application.HW.executor": "Debug",
     "Application.HelloWorld.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -54,27 +60,80 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.<default> (1).executor": "Run",
     "TestNG.<default>.executor": "Run",
+    "TestNG.B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Listners/testng_Listners.xml.executor": "Run",
+    "TestNG.B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Parallel/testng_Parallel.xml.executor": "Run",
     "TestNG.BDDStylePOST.executor": "Run",
+    "TestNG.DDT.executor": "Run",
+    "TestNG.DDT.loginTest.executor": "Debug",
+    "TestNG.DDT01.executor": "Run",
     "TestNG.NONBDDStylePOST.executor": "Run",
     "TestNG.NONBDD_DELETE.executor": "Run",
     "TestNG.NONBDD_PATCH.executor": "Run",
     "TestNG.NONBDD_PUT.executor": "Run",
     "TestNG.NONBDD_PUT.testPutRequest.executor": "Run",
+    "TestNG.Tc001.executor": "Run",
+    "TestNG.Test02.executor": "Run",
+    "TestNG.test02.T3.executor": "Run",
+    "TestNG.test02.executor": "Run",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Parallel",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.NONBDD_DELETE">
-    <configuration name="NONBDDStylePOST" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\JAVA CODES\APIAutomationRestAssured5x\src\test\java\org\example\testNG\Parallel" />
+      <recent name="B:\JAVA CODES\APIAutomationRestAssured5x\src\test\java\org\example\testNG\Listners" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\JAVA CODES\APIAutomationRestAssured5x\src\test\resources" />
+      <recent name="B:\JAVA CODES\APIAutomationRestAssured5x\src\test\java\org\example\DDT" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Parallel/testng_Parallel.xml">
+    <configuration name="DDT_ReadExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DDT.DDT_ReadExcel" />
       <module name="APIAutomationRestAssured5x" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.CRUD.POST.*" />
+          <option name="PATTERN" value="org.example.DDT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.CRUD.POST" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.POST.NONBDDStylePOST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Listners/testng_Listners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/testNG/Listners/testng_Listners.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Parallel/testng_Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/testNG/Parallel/testng_Parallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured5x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DDT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DDT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DDT.DDT" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -82,69 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NONBDD_DELETE" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tc001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured5x" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.CRUD.DELETE.*" />
+          <option name="PATTERN" value="org.example.testNG.Listners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.CRUD.DELETE" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.DELETE.NONBDD_DELETE" />
+      <option name="PACKAGE_NAME" value="org.example.testNG.Listners" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testNG.Listners.Tc001" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NONBDD_PATCH" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured5x" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.CRUD.PATCH.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.CRUD.PATCH" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.PATCH.NONBDD_PATCH" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NONBDD_PUT" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured5x" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.CRUD.PUT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.CRUD.PUT" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.PUT.NONBDD_PUT" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NONBDD_PUT.testPutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured5x" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.CRUD.PUT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.CRUD.PUT" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CRUD.PUT.NONBDD_PUT" />
-      <option name="METHOD_NAME" value="testPutRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NONBDD_DELETE" />
-        <item itemvalue="TestNG.NONBDD_PATCH" />
-        <item itemvalue="TestNG.NONBDD_PUT" />
-        <item itemvalue="TestNG.NONBDD_PUT.testPutRequest" />
-        <item itemvalue="TestNG.NONBDDStylePOST" />
+        <item itemvalue="TestNG.B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Parallel/testng_Parallel.xml" />
+        <item itemvalue="TestNG.B:/JAVA CODES/APIAutomationRestAssured5x/src/test/java/org/example/testNG/Listners/testng_Listners.xml" />
+        <item itemvalue="TestNG.Tc001" />
+        <item itemvalue="Application.DDT_ReadExcel" />
+        <item itemvalue="TestNG.DDT" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +184,35 @@
       <option name="presentableId" value="Default" />
       <updated>1712740296920</updated>
     </task>
+    <task id="LOCAL-00001" summary="11th April 2024">
+      <option name="closed" value="true" />
+      <created>1712854998301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712854998301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11th April 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="11th April 2024" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/APIAutomationRestAssured5x$DDT.ic" NAME="DDT Coverage Results" MODIFIED="1713105443379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.DDT.*</FILTER>
+    </SUITE>
   </component>
 </project>
